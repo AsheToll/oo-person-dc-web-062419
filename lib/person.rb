@@ -1,12 +1,6 @@
 require 'pry'
 # your code goes here
 class Person
-    # get paid/receive payments
-    # take a bath
-    # call a friend
-    # start a conversation
-    # state if they are happy and/or clean
-    
     # def bank_account
     #     @bank_account
     # end
@@ -17,8 +11,6 @@ class Person
     attr_accessor :bank_account
     attr_accessor :happiness
     attr_accessor :hygiene
-    array = (0..10).to_a
-    #binding.pry
     def initialize(name)
         @name = name
         @bank_account = 25
